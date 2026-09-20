@@ -22,6 +22,7 @@ export default function Navbar() {
           <Link href="/departments" className="hover:text-blue-400 transition-colors">Departments</Link>
           <Link href="/consortium" className="hover:text-blue-400 transition-colors">International Consortium</Link>
           <Link href="/collaboration" className="hover:text-blue-400 transition-colors">Collaborate</Link>
+          <Link href="/about" className="text-slate-300 hover:text-white">About Us</Link>
         </div>
         
         <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded text-sm font-semibold transition-colors cursor-pointer inline-block">
