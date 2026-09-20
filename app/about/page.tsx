@@ -8,6 +8,9 @@ export default function About() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
         <h2 className="text-xl md:text-2xl font-medium text-blue-300">FRONTIER RESEARCH & INNOVATION SOLUTIONS</h2>
         <p className="text-slate-300 mt-2">(SMC-PRIVATE) LIMITED — Pakistan</p>
+        <p className="text-purple-400 font-semibold mt-4 text-sm md:text-base uppercase tracking-wider">
+  Multidisciplinary Research, Innovation & International Collaboration Services
+</p>
       </section>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 space-y-16">
