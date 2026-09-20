@@ -63,9 +63,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Yeh jagah humne Step 2 aur Step 3 ke liye khali chori hai */}
+      {/* =========================================
+          STEP 2: TRUST & STATS BAR (Overlapping)
+          ========================================= */}
+      <section className="bg-slate-50 relative z-20 px-4">
+        <div className="max-w-6xl mx-auto -mt-12">
+          <div className="bg-slate-800 rounded-2xl shadow-2xl p-8 md:p-10 flex flex-col md:flex-row justify-around items-center gap-8 border border-slate-700/50 backdrop-blur-lg">
+            
+            <div className="text-center">
+              <h3 className="text-3xl md:text-4xl font-extrabold text-blue-400 mb-2">10+</h3>
+              <p className="text-slate-300 font-medium uppercase tracking-wider text-sm">Research Areas</p>
+            </div>
+            
+            <div className="hidden md:block w-px h-16 bg-slate-600"></div>
+
+            <div className="text-center">
+              <h3 className="text-3xl md:text-4xl font-extrabold text-purple-400 mb-2">Global</h3>
+              <p className="text-slate-300 font-medium uppercase tracking-wider text-sm">Collaboration Network</p>
+            </div>
+
+            <div className="hidden md:block w-px h-16 bg-slate-600"></div>
+
+            <div className="text-center">
+              <h3 className="text-3xl md:text-4xl font-extrabold text-emerald-400 mb-2">100%</h3>
+              <p className="text-slate-300 font-medium uppercase tracking-wider text-sm">Multidisciplinary</p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      {/* Step 3 (Cards) ki jagah */}
       <section className="flex-grow bg-slate-50 py-20 flex items-center justify-center">
-        <p className="text-slate-400 text-lg">Step 2 (Stats Bar) aur Step 3 yahan add karenge...</p>
+        <p className="text-slate-400 text-lg">Step 3 (Services Cards) yahan aayenge...</p>
       </section>
 
     </div>
