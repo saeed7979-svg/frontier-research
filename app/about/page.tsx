@@ -101,9 +101,9 @@ export default function About() {
                   <td className="p-4 border border-slate-300">+92 345 0216630</td>
                 </tr>
                 <tr>
-                  <td className="p-4 border border-slate-300 font-semibold">Official Email</td>
-                  <td className="p-4 border border-slate-300">ayazsb1993@gmail.com</td>
-                </tr>
+  <td className="p-4 border border-slate-300 font-semibold">Official Email</td>
+  <td className="p-4 border border-slate-300">infofrispk@gmail.com</td>
+</tr>
                 <tr className="bg-slate-50">
                   <td className="p-4 border border-slate-300 font-semibold">Registered / Business Address</td>
                   <td className="p-4 border border-slate-300">Al Mubashir Plaza, First Floor, Office No. 2, Main Street, Azeem Town, Khan Pur, Pakistan</td>
