@@ -6,11 +6,10 @@ export default function Navbar() {
     <nav className="bg-slate-900 text-white py-4 px-8 shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
-        {/* Logo Section */}
+        {/* Logo Section - Updated to logo.jpg */}
         <Link href="/" className="flex flex-col items-center cursor-pointer">
-          {/* Make sure exact file name is used below (e.g., logo.png or logo.jpg) */}
           <Image 
-            src="/logo.png" 
+            src="/logo.jpg" 
             alt="Frontier Research Logo" 
             width={160} 
             height={55} 
