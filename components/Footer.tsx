@@ -27,7 +27,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li><span className="text-slate-400 block mb-1">Address:</span> Al Mubashir Plaza, First Floor, Office No. 2, Main Street, Azeem Town, Khan Pur, Pakistan</li>
             <li><span className="text-slate-400 block mt-3 mb-1">Phone:</span> +92 345 0216630</li>
-            <li><span className="text-slate-400 block mt-3 mb-1">Email:</span> ayazsb1993@gmail.com</li>
+            <li><span className="text-slate-400 block mt-3 mb-1">Email:</span> infofrispk@gmail.com</li>
           </ul>
         </div>
       </div>

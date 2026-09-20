@@ -47,7 +47,7 @@ export default function Collaboration() {
           <div className="text-right">
             <p className="text-sm text-slate-500 uppercase font-semibold tracking-wider mb-1">Official Contact</p>
             <p className="font-bold text-slate-800">+92 345 0216630</p>
-            <p className="font-bold text-slate-800">ayazsb1993@gmail.com</p>
+            <p className="font-bold text-slate-800">infofrispk@gmail.com</p>
           </div>
         </div>
       </div>

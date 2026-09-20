@@ -44,7 +44,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-semibold text-blue-400 mb-1">Email Address</h4>
-                <p className="text-slate-300 text-sm">ayazsb1993@gmail.com</p>
+                <p className="text-slate-300 text-sm">infofrispk@gmail.com</p>
               </div>
             </div>
           </div>
@@ -53,29 +53,30 @@ export default function Contact() {
         {/* Contact Form Side */}
         <div className="p-10 md:p-14">
           <h3 className="text-2xl font-bold text-slate-800 mb-6">Send a Message</h3>
-          <form className="space-y-5">
+          <form action="https://api.web3forms.com/submit" method="POST" className="space-y-5">
+          <input type="hidden" name="access_key" value="7d41f0a8-a6d8-436e-9b3c-c587d7f0a1d3" />
             <div className="grid grid-cols-2 gap-5">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-2">First Name</label>
-                <input type="text" className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="John" />
+                <input type="text" name="First_Name" className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="John" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-2">Last Name</label>
-                <input type="text" className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Doe" />
+                <input type="text" name="Last_Name" className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Doe" />
               </div>
             </div>
             
             <div>
               <label className="block text-sm font-medium text-slate-700 mb-2">Email Address</label>
-              <input type="email" className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="you@example.com" />
+              <input type="email" name="Email" className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="you@example.com" />
             </div>
 
             <div>
               <label className="block text-sm font-medium text-slate-700 mb-2">Message</label>
-              <textarea rows={4} className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="How can we collaborate?"></textarea>
+              <textarea name="Message" rows={4} className="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="How can we collaborate?"></textarea>
             </div>
 
-            <button type="button" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-colors">
+            <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-colors">
               Send Message
             </button>
           </form>
