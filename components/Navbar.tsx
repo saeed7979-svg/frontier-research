@@ -17,7 +17,7 @@ export default function Navbar() {
                {/* Logo Wrapper */}
                <div className="bg-white p-2.5 rounded-xl shadow-lg border border-slate-200 flex items-center justify-center transition-transform hover:scale-105 hover:shadow-blue-500/20">
                  <Image 
-                   src="/logo.png" 
+                   src="/logo.jpg" 
                    alt="FRIS Logo" 
                    width={120} 
                    height={45} 
