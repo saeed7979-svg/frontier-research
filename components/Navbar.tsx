@@ -16,7 +16,13 @@ export default function Navbar() {
           <div className="flex-shrink-0 bg-white p-1 rounded">
             <Link href="/">
                {/* Agar aapki image ka code kuch aur hai toh yahan replace kar lein */}
-               <div className="text-blue-900 font-bold text-xl px-2">FRIS</div>
+               <Image 
+  src="/logo.png" 
+  alt="FRIS Logo" 
+  width={140} 
+  height={45} 
+  className="object-contain"
+/>
             </Link>
           </div>
 
