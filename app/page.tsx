@@ -15,6 +15,9 @@ export default function Home() {
           <p className="text-lg text-slate-300 mb-10 max-w-2xl">
             A trusted Pakistan-based platform connecting international professors, researchers, and industry leaders to drive innovation and digital opportunity.
           </p>
+          <p className="mt-6 text-slate-300 text-lg md:text-xl">
+  Under the leadership of <span className="font-bold text-white">CEO Ayaz Ahmad</span>
+</p>
           <div className="flex space-x-4">
             <Link href="/departments" className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded font-medium transition-all text-white cursor-pointer inline-block">
               Explore Departments
