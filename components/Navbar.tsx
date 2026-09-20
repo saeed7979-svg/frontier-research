@@ -17,7 +17,7 @@ export default function Navbar() {
             <Link href="/">
                {/* Agar aapki image ka code kuch aur hai toh yahan replace kar lein */}
                <Image 
-  src="/logo.png" 
+  src="/logo.jpg" 
   alt="FRIS Logo" 
   width={140} 
   height={45} 
