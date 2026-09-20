@@ -93,9 +93,54 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Step 3 (Cards) ki jagah */}
-      <section className="flex-grow bg-slate-50 py-20 flex items-center justify-center">
-        <p className="text-slate-400 text-lg">Step 3 (Services Cards) yahan aayenge...</p>
+      {/* =========================================
+          STEP 3: SERVICES & COLLABORATION CARDS
+          ========================================= */}
+      <section className="py-24 px-4 max-w-7xl mx-auto bg-slate-50">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
+            Areas of <span className="text-blue-600">Collaboration</span>
+          </h2>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6 rounded-full"></div>
+          <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
+            Explore our comprehensive multidisciplinary framework designed to foster innovation, research, and global partnerships.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {[
+            { area: "Joint Research Projects", scope: "Multidisciplinary projects with universities, institutes and researchers." },
+            { area: "Researcher Collaboration", scope: "Co-research, researcher matching and scientific collaboration." },
+            { area: "Joint Publications", scope: "Co-authored articles, reviews, reports, books and book chapters." },
+            { area: "Joint Grants", scope: "Collaborative proposals, consortium building and funded research." },
+            { area: "Student Research", scope: "Research projects, thesis/dissertation collaboration and internships." },
+            { area: "Laboratory Collaboration", scope: "Testing, characterization, technical research and prototypes where available." },
+            { area: "Industry R&D", scope: "Applied research, industrial problem solving and technology development." },
+            { area: "Innovation & Technology Transfer", scope: "Prototypes, intellectual property, patents, licensing and commercialization." },
+            { area: "International Collaboration", scope: "Cross-border research, knowledge exchange and institutional partnerships." }
+          ].map((item, index) => (
+            <div key={index} className="group bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative overflow-hidden">
+              
+              {/* Decorative top border glow (Hover Effect) */}
+              <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-blue-500 to-purple-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+              
+              {/* Number Badge */}
+              <div className="w-14 h-14 bg-blue-50 group-hover:bg-blue-600 rounded-xl flex items-center justify-center mb-6 transition-colors duration-300 shadow-inner">
+                <span className="text-blue-600 group-hover:text-white font-black text-2xl transition-colors duration-300">
+                  {index + 1}
+                </span>
+              </div>
+              
+              {/* Card Content */}
+              <h3 className="text-xl font-bold text-slate-800 mb-3 group-hover:text-blue-700 transition-colors duration-300">
+                {item.area}
+              </h3>
+              <p className="text-slate-600 leading-relaxed text-sm md:text-base">
+                {item.scope}
+              </p>
+            </div>
+          ))}
+        </div>
       </section>
 
     </div>
