@@ -1,15 +1,22 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
     <nav className="bg-slate-900 text-white py-4 px-8 shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex flex-col">
-          <Link href="/" className="text-xl font-bold tracking-wider">
-            FRONTIER RESEARCH
-          </Link>
-          <span className="text-xs text-slate-400">& INNOVATION SOLUTIONS</span>
-        </div>
+        
+        {/* Logo Section */}
+        <Link href="/" className="flex flex-col items-center cursor-pointer">
+          {/* Make sure exact file name is used below (e.g., logo.png or logo.jpg) */}
+          <Image 
+            src="/logo.png" 
+            alt="Frontier Research Logo" 
+            width={160} 
+            height={55} 
+            className="object-contain bg-white p-1 rounded"
+          />
+        </Link>
         
         <div className="hidden md:flex space-x-8 text-sm font-medium">
           <Link href="/" className="hover:text-blue-400 transition-colors">Home</Link>
@@ -18,8 +25,7 @@ export default function Navbar() {
           <Link href="/collaboration" className="hover:text-blue-400 transition-colors">Collaborate</Link>
         </div>
         
-        {/* Yeh Contact Us ka naya Link hai */}
-        <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded text-sm font-semibold transition-colors">
+        <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded text-sm font-semibold transition-colors cursor-pointer inline-block">
           Contact Us
         </Link>
       </div>
