@@ -64,29 +64,45 @@ export default function Home() {
       </section>
 
       {/* =========================================
-          STEP 2: TRUST & STATS BAR (Overlapping)
+          STEP 2: TRUST & STATS BAR (VIP Dark Glass)
           ========================================= */}
-      <section className="bg-slate-50 relative z-20 px-4">
-        <div className="max-w-6xl mx-auto -mt-12">
-          <div className="bg-slate-800 rounded-2xl shadow-2xl p-8 md:p-10 flex flex-col md:flex-row justify-around items-center gap-8 border border-slate-700/50 backdrop-blur-lg">
+      <section className="relative z-20 px-4 -mt-16 sm:-mt-24 pb-12 bg-transparent">
+        <div className="max-w-6xl mx-auto">
+          {/* Glassmorphism Container */}
+          <div className="bg-slate-800/40 backdrop-blur-xl rounded-3xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] p-8 md:p-12 flex flex-col md:flex-row justify-around items-center gap-8 border border-white/10 relative overflow-hidden">
             
-            <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-extrabold text-blue-400 mb-2">10+</h3>
-              <p className="text-slate-300 font-medium uppercase tracking-wider text-sm">Research Areas</p>
+            {/* Subtle inner glow */}
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-emerald-500/10 opacity-50"></div>
+
+            <div className="text-center relative z-10 w-full md:w-1/3">
+              <h3 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200 mb-2 drop-shadow-sm">
+                10+
+              </h3>
+              <p className="text-slate-400 font-semibold uppercase tracking-[0.2em] text-xs md:text-sm">
+                Research Areas
+              </p>
             </div>
             
-            <div className="hidden md:block w-px h-16 bg-slate-600"></div>
+            <div className="hidden md:block w-px h-20 bg-slate-700/50 relative z-10"></div>
 
-            <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-extrabold text-purple-400 mb-2">Global</h3>
-              <p className="text-slate-300 font-medium uppercase tracking-wider text-sm">Collaboration Network</p>
+            <div className="text-center relative z-10 w-full md:w-1/3">
+              <h3 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-200 mb-2 drop-shadow-sm">
+                Global
+              </h3>
+              <p className="text-slate-400 font-semibold uppercase tracking-[0.2em] text-xs md:text-sm">
+                Collaboration Network
+              </p>
             </div>
 
-            <div className="hidden md:block w-px h-16 bg-slate-600"></div>
+            <div className="hidden md:block w-px h-20 bg-slate-700/50 relative z-10"></div>
 
-            <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-extrabold text-emerald-400 mb-2">100%</h3>
-              <p className="text-slate-300 font-medium uppercase tracking-wider text-sm">Multidisciplinary</p>
+            <div className="text-center relative z-10 w-full md:w-1/3">
+              <h3 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-200 mb-2 drop-shadow-sm">
+                100%
+              </h3>
+              <p className="text-slate-400 font-semibold uppercase tracking-[0.2em] text-xs md:text-sm">
+                Multidisciplinary
+              </p>
             </div>
             
           </div>
