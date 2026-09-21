@@ -46,18 +46,27 @@ export default function Home() {
 
           {/* The 4 Glassmorphism Buttons */}
           <div className="flex flex-wrap justify-center gap-5 w-full max-w-5xl">
-            <button className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto uppercase tracking-wide">
+            
+            {/* 1. Company & Legal Info */}
+            <Link href="/company-info" className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto text-center uppercase tracking-wide">
               Company & Legal Information
-            </button>
-            <button className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto uppercase tracking-wide">
-              Joint Research Collaboration
-            </button>
-            <button className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto uppercase tracking-wide">
-              Research Consortium
-            </button>
-            <button className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto uppercase tracking-wide">
+            </Link>
+            
+            {/* 2. Objectives (Yeh upar aa gaya) */}
+            <Link href="/objectives" className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto text-center uppercase tracking-wide">
               Objectives
-            </button>
+            </Link>
+
+            {/* 3. Research Consortium */}
+            <Link href="/consortium" className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto text-center uppercase tracking-wide">
+              Research Consortium
+            </Link>
+
+            {/* 4. Joint Research (Yeh neechay chala gaya) */}
+            <Link href="/joint-research" className="bg-white/10 hover:bg-blue-600 backdrop-blur-md border border-white/20 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:-translate-y-2 text-sm md:text-base w-full sm:w-auto text-center uppercase tracking-wide">
+              Joint Research Collaboration
+            </Link>
+            
           </div>
 
         </div>
