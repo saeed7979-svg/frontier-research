@@ -35,8 +35,9 @@ export default function Navbar() {
               <Link href="/departments" className="text-slate-300 hover:text-blue-400 px-2 py-2 text-sm font-semibold uppercase tracking-wider transition-colors duration-300">Departments</Link>
               <Link href="/consortium" className="text-slate-300 hover:text-blue-400 px-2 py-2 text-sm font-semibold uppercase tracking-wider transition-colors duration-300">Research Consortium</Link>
               <Link href="/collaborate" className="text-slate-300 hover:text-blue-400 px-2 py-2 text-sm font-semibold uppercase tracking-wider transition-colors duration-300">Collaborate</Link>
-              <Link href="/about" className="text-slate-300 hover:text-blue-400 px-2 py-2 text-sm font-semibold uppercase tracking-wider transition-colors duration-300">About Us</Link>
+              
               <Link href="/joint-research" className="text-slate-300 hover:text-blue-400 px-2 py-2 text-sm font-semibold uppercase tracking-wider transition-colors duration-300">Joint Research</Link>
+              <Link href="/about" className="text-slate-300 hover:text-blue-400 px-2 py-2 text-sm font-semibold uppercase tracking-wider transition-colors duration-300">About Us</Link>
             </div>
           </div>
 
@@ -77,8 +78,9 @@ export default function Navbar() {
             <Link onClick={() => setIsOpen(false)} href="/departments" className="text-slate-300 hover:text-blue-400 block px-3 py-3 rounded-md text-base font-medium border-b border-slate-800">Departments</Link>
             <Link onClick={() => setIsOpen(false)} href="/consortium" className="text-slate-300 hover:text-blue-400 block px-3 py-3 rounded-md text-base font-medium border-b border-slate-800">Research Consortium</Link>
             <Link onClick={() => setIsOpen(false)} href="/collaborate" className="text-slate-300 hover:text-blue-400 block px-3 py-3 rounded-md text-base font-medium border-b border-slate-800">Collaborate</Link>
-            <Link onClick={() => setIsOpen(false)} href="/about" className="text-slate-300 hover:text-blue-400 block px-3 py-3 rounded-md text-base font-medium border-b border-slate-800">About Us</Link>
+            
             <Link onClick={() => setIsOpen(false)} href="/joint-research" className="text-slate-300 hover:text-blue-400 block px-3 py-3 rounded-md text-base font-medium border-b border-slate-800">Joint Research</Link>
+            <Link onClick={() => setIsOpen(false)} href="/about" className="text-slate-300 hover:text-blue-400 block px-3 py-3 rounded-md text-base font-medium border-b border-slate-800">About Us</Link>
             <Link onClick={() => setIsOpen(false)} href="/contact" className="bg-blue-600 hover:bg-blue-500 text-white block px-3 py-3 rounded-md text-base font-medium mt-4 text-center shadow-[0_0_15px_rgba(37,99,235,0.4)]">Contact Us</Link>
           </div>
         </div>
