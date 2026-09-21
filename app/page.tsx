@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="bg-slate-50 min-h-screen flex flex-col">
+    <div className="bg-slate-900 min-h-screen flex flex-col text-white">
       
       {/* =========================================
           STEP 1: HERO SECTION (Glowing & Modern)
