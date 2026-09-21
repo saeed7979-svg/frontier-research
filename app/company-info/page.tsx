@@ -103,7 +103,7 @@ export default function CompanyInfo() {
                 </p>
                 <p className="text-slate-300 flex items-center gap-3">
                   <span className="font-semibold text-slate-400">Email:</span> 
-                  <a href="mailto:ayazsb1993@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors">ayazsb1993@gmail.com</a>
+                  <a href="mailto:infofrispk@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors">infofrispk@gmail.com</a>
                 </p>
               </div>
             </div>
